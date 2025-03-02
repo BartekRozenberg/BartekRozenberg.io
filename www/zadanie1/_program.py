@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
 from markdownify import markdownify as md
-from googlesearch import search
+from duckduckgo_search import DDGS
 import time
 
 mysite = "https://bartekrozenberg.github.io/BartekRozenberg.io-main/www/zadanie1/pharaohs"
@@ -12,17 +12,19 @@ page = requests.get(url, verify=False)
 soup = BeautifulSoup(page.content, "html.parser")
 
 def create_king_page(king_name):
-    king_page_name = king_name.replace(" ", "_")
-    king_page = f"www/zadanie1/{king_page_name}.md"
+    return
     time.sleep(5)
-    king_url = next(search(f"{king_name} site:pharaoh.se", num=1))
+    king_page_name = king_name.replace(" ", "_")
+    king_page = f"www/zadanie1/pharaohs/{king_page_name}.md"
+    search_results = DDGS().text(f"{king_name} site:pharaoh.se", max_results=1)
+    king_url = search_results[0]['href'] if search_results else None
     print(king_url)
     king_page_content = requests.get(king_url, verify=False)
     king_soup = BeautifulSoup(king_page_content.content, "html.parser")
     print(king_soup.title)
     with(open(king_page, "w")) as file:
         file.write(f"# {king_name}\n\n")
-        file.write(md(str(king_soup.find_all("p", limit=3))) + "\n")
+        file.write(md(str(king_soup.find_all("p"))) + "\n")
 
 # There is general information about the 18th dynasty:
 paragraphs = soup.find_all("p", limit=4)
@@ -55,7 +57,7 @@ with(open(pharaohs_page, "w")) as file:
         if len(king) == 0:
             continue
         page_name = king[1].replace(" ", "_")
-        file.write(f"- [{king[0]}: {king[1]}]({mysite}/{page_name})\n")
+        file.write(f"- [{king[0]}: {king[1]}]({mysite}/pharaohs/{page_name})\n")
         create_king_page(king[1])
 
     file.write("\n ### Source: [The Eighteenth Dynasty]({url})\n")
