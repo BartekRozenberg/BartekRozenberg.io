@@ -16,18 +16,4 @@ The Eighteenth Dynasty is renowned for its artistic achievements, including the 
 
 It is important to note that the chronological order of the pharaohs is an evolving subject and should therefore be treated with a certain degree of caution. As new research is conducted, the order may be subject to change, which is a fundamental principle that applies to all Egyptian dynasties.
 
-- [1: Ahmose I](https://bartekrozenberg.github.io/BartekRozenberg.io-main/www/zadanie1/pharaohs/Ahmose I)
-- [2: Amenhotep I](https://bartekrozenberg.github.io/BartekRozenberg.io-main/www/zadanie1/pharaohs/Amenhotep I)
-- [3: Thutmose I](https://bartekrozenberg.github.io/BartekRozenberg.io-main/www/zadanie1/pharaohs/Thutmose I)
-- [4: Thutmose II](https://bartekrozenberg.github.io/BartekRozenberg.io-main/www/zadanie1/pharaohs/Thutmose II)
-- [5: Hatshepsut](https://bartekrozenberg.github.io/BartekRozenberg.io-main/www/zadanie1/pharaohs/Hatshepsut)
-- [6: Thutmose III](https://bartekrozenberg.github.io/BartekRozenberg.io-main/www/zadanie1/pharaohs/Thutmose III)
-- [7: Amenhotep II](https://bartekrozenberg.github.io/BartekRozenberg.io-main/www/zadanie1/pharaohs/Amenhotep II)
-- [8: Thutmose IV](https://bartekrozenberg.github.io/BartekRozenberg.io-main/www/zadanie1/pharaohs/Thutmose IV)
-- [9: Amenhotep III](https://bartekrozenberg.github.io/BartekRozenberg.io-main/www/zadanie1/pharaohs/Amenhotep III)
-- [10: Amenhotep IV](https://bartekrozenberg.github.io/BartekRozenberg.io-main/www/zadanie1/pharaohs/Amenhotep IV)
-- [11: Neferneferuaten](https://bartekrozenberg.github.io/BartekRozenberg.io-main/www/zadanie1/pharaohs/Neferneferuaten)
-- [12: Smenkhkara](https://bartekrozenberg.github.io/BartekRozenberg.io-main/www/zadanie1/pharaohs/Smenkhkara)
-- [13: Tutankhamun](https://bartekrozenberg.github.io/BartekRozenberg.io-main/www/zadanie1/pharaohs/Tutankhamun)
-- [14: Ay](https://bartekrozenberg.github.io/BartekRozenberg.io-main/www/zadanie1/pharaohs/Ay)
-- [15: Horemheb](https://bartekrozenberg.github.io/BartekRozenberg.io-main/www/zadanie1/pharaohs/Horemheb)
+- [1: Ahmose I](https://bartekrozenberg.github.io/BartekRozenberg.io-main/www/zadanie1/pharaohs/Ahmose_I)
