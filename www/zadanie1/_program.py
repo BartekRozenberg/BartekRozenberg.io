@@ -5,7 +5,7 @@ from duckduckgo_search import DDGS
 import time
 import wikipediaapi
 
-mysite = "https://bartekrozenberg.github.io/BartekRozenberg.io-main/www/zadanie1"
+mysite = "https://bartekrozenberg.github.io/BartekRozenberg.io/www/zadanie1"
 pharaohs_page = "www/zadanie1/index.md"
 
 url = "https://pharaoh.se/ancient-egypt/dynasty/18/"
@@ -88,4 +88,4 @@ with(open(pharaohs_page, "w")) as file:
         file.write(f"- [{king[0]}: {king[1]}]({mysite}/pharaohs/{page_name})\n")
         create_king_page(king[1])
 
-    file.write(f"\n ### Source: [The Eighteenth Dynasty]({url})\n")
+    file.write(f"\n### Source: [The Eighteenth Dynasty]({url})\n")
