@@ -1,0 +1,5 @@
+# Amenhotep I
+
+Amenhotep I () or Amenophis I ( from Ancient Greek Ἀμένωφις), was the second Pharaoh of the 18th Dynasty of Egypt. His reign is generally dated from 1526 to 1506 BC (Low Chronology).
+He was a son of Ahmose I and Ahmose-Nefertari but had an elder brother, Ahmose-ankh, and was not expected to inherit the throne. However, sometime in the eight years between Ahmose I's 17th regnal year and his death, his heir apparent died and Amenhotep became crown prince. He then acceded to the throne and ruled for about 21 years.
+Although his reign is poorly documented, it is possible to piece together a basic history from available evidence. He inherited the kingdom formed by his father's military conquests and maintained dominance over Nubia and the Nile Delta but probably did not attempt to maintain Egyptian power in the Levant. He continued the rebuilding of temples in Upper Egypt and revolutionized mortuary complex design by separating his tomb from his mortuary temple, setting a trend in royal funerary monuments which would persist throughout the New Kingdom. After his death, he was deified as a patron god of Deir el-Medina.

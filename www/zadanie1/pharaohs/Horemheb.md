@@ -1,0 +1,5 @@
+# Horemheb
+
+Horemheb, also spelled Horemhab, Haremheb or Haremhab (Ancient Egyptian: ḥr-m-ḥb, meaning "Horus is in Jubilation"), was the last pharaoh of the 18th Dynasty of Egypt (1550–1292 BC). He ruled for at least 14 years between 1319 BC and 1292 BC. He had no relation to the preceding royal family other than by marriage to Mutnedjmet, who is thought (though disputed) to have been the daughter of his predecessor, Ay; he is believed to have been of common birth.
+Before he became pharaoh Horemheb was the commander-in-chief of the army under the reigns of Tutankhamun and Ay. After his accession to the throne, he reformed the Egyptian state and it was during his reign that official action against the preceding Amarna rulers began, which is why he is considered the ruler who restabilized his country after the troublesome and divisive Amarna Period.
+Horemheb demolished monuments of Akhenaten, reusing the rubble in his own building projects, and usurped monuments of Tutankhamun and Ay. Horemheb presumably had no surviving sons, as he appointed as his successor his vizier Paramesse, who would assume the throne as Ramesses I.
