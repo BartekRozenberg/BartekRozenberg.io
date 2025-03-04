@@ -61,8 +61,7 @@ It is important to note that the chronological order of the pharaohs is an evolv
         <li><a href="pharaohs/Horemheb">Horemheb</a></li>
 
         </u1>
-      <p>
-<\p>
+      <br>
       <p><em>Source of information: <a href="https://pharaoh.se/ancient-egypt/dynasty/18/" target="_blank">https://pharaoh.se/ancient-egypt/dynasty/18/</a></em></p>
       <p><em>Background image source:
          <a href="http://www.ancientpages.com/wp-content/uploads/2017/11/karnak114.jpg" target="_blank">http://www.ancientpages.com/wp-content/uploads/2017/11/karnak114.jpg</a>

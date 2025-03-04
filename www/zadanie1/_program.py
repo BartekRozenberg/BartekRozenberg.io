@@ -38,7 +38,7 @@ wiki_wiki = wikipediaapi.Wikipedia(language='en', user_agent=user_agent)
 
 # Getting the image for the background used in king pages:
 with DDGS() as ddgs:
-    image_results = ddgs.images("valley of kings tombs", max_results=1)
+    image_results = ddgs.images("valley of kings mountain", max_results=1)
 
 king_background = image_results[0].get("image", "")
 background_king_source = image_results[0].get("image") if image_results and len(image_results) > 0 else ""
@@ -160,7 +160,7 @@ for king in kings_list:
 
 page_end = f"""
         </u1>
-      <p>\n<\p>
+      <br>
       <p><em>Source of information: <a href="{url}" target="_blank">{url}</a></em></p>
       <p><em>Background image source:
          <a href="{background_source}" target="_blank">{background_source}</a>
