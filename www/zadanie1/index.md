@@ -4,7 +4,7 @@
     <title>The Eighteenth Dynasty of Ancient Egypt</title>
     <style>
       html, body { height: 100%; margin: 0; }
-body { background: url(https://www.eyeofhorustours.com/wp-content/uploads/luxor-1.jpg) no-repeat center center fixed; background-size: cover; font-family: Arial, sans-serif; color: #FFFFFF; }
+body { background: url(http://www.ancientpages.com/wp-content/uploads/2017/11/karnak114.jpg) no-repeat center center fixed; background-size: cover; font-family: Arial, sans-serif; color: #FFFFFF; }
 .content { padding: 20px; min-height: 100vh; background-color: rgba(0, 0, 0, 0.5); }
 h1 { font-size: 2.5rem; }
 p { font-size: 1.125rem; }
@@ -61,9 +61,11 @@ It is important to note that the chronological order of the pharaohs is an evolv
         <li><a href="pharaohs/Horemheb">Horemheb</a></li>
 
         </u1>
-      <p><em>Source: <a href="https://pharaoh.se/ancient-egypt/dynasty/18/" target="_blank">https://pharaoh.se/ancient-egypt/dynasty/18/</a></em></p>
-      <p><em>Background Image Source:
-         <a href="https://www.eyeofhorustours.com/wp-content/uploads/luxor-1.jpg" target="_blank">https://www.eyeofhorustours.com/wp-content/uploads/luxor-1.jpg</a>
+      <p>
+<\p>
+      <p><em>Source of information: <a href="https://pharaoh.se/ancient-egypt/dynasty/18/" target="_blank">https://pharaoh.se/ancient-egypt/dynasty/18/</a></em></p>
+      <p><em>Background image source:
+         <a href="http://www.ancientpages.com/wp-content/uploads/2017/11/karnak114.jpg" target="_blank">http://www.ancientpages.com/wp-content/uploads/2017/11/karnak114.jpg</a>
       </em></p>
     </div>
   </body>
