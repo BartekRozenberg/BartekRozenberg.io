@@ -1,35 +1,70 @@
-# The Eighteenth Dynasty of Ancient Egypt
-
-## The New Kingdom
-
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>The Eighteenth Dynasty of Ancient Egypt</title>
+    <style>
+      html, body { height: 100%; margin: 0; }
+body { background: url(https://www.eyeofhorustours.com/wp-content/uploads/luxor-1.jpg) no-repeat center center fixed; background-size: cover; font-family: Arial, sans-serif; color: #FFFFFF; }
+.content { padding: 20px; min-height: 100vh; background-color: rgba(0, 0, 0, 0.5); }
+h1 { font-size: 2.5rem; }
+p { font-size: 1.125rem; }
+a { color:rgb(230, 223, 173); }
+/* Tablet devices */
+@media (max-width: 768px) {
+  .content { padding: 15px; }
+  h1 { font-size: 2rem; }
+  p { font-size: 1rem; }
+}
+/* Mobile devices */
+@media (max-width: 480px) {
+  .content { padding: 10px; }
+  h1 { font-size: 1.5rem; }
+  p { font-size: 0.9rem; }
+}
+    </style>
+  </head>
+  <body>
+    <div class="content">
+      <h1>The Eighteenth Dynasty of Ancient Egypt</h1>
+      <h2>The New Kingdom</h2>
+      <p>
 The Eighteenth Dynasty marks the beginning of the New Kingdom, a period of approximately 350 years during which ancient Egypt reached its apogee of power.
-
-## Time of prosperity
-
+</p>
+      <h2>Time of prosperity</h2>
+      <p>
 The Eighteenth Dynasty is considered one of the most prosperous and powerful periods in ancient Egyptian history. Beginning with the rise of Ahmose I, who expelled the Hyksos invaders, the dynasty witnessed a golden age of Egyptian culture and military might. Pharaohs such as Queen Hatshepsut, Amenhotep III and the "heretic pharaoh" Akhenaten ruled during this time, overseeing a significant expansion of the empire through both conquest and diplomacy. The most widely known pharaoh in modern times is arguably Tutankhamun, whose tomb, containing a vast array of treasures, was discovered in 1922. 
-
-## Achievements
-
+</p>
+      <h2>Achievements</h2>
+      <p>
 The Eighteenth Dynasty is renowned for its artistic achievements, including the construction of monumental temples such as the Luxor and Karnak temples, as well as the development of the Amarna Period under Akhenaten.
+</p>
 
-## The list of Pharaohs
-
+      <h2>The list of Pharaohs</h2>
+      <p>
 It is important to note that the chronological order of the pharaohs is an evolving subject and should therefore be treated with a certain degree of caution. As new research is conducted, the order may be subject to change, which is a fundamental principle that applies to all Egyptian dynasties.
+</p>
+        <u1>
+        <li><a href="pharaohs/Ahmose_I">Ahmose I</a></li>
+        <li><a href="pharaohs/Amenhotep_I">Amenhotep I</a></li>
+        <li><a href="pharaohs/Thutmose_I">Thutmose I</a></li>
+        <li><a href="pharaohs/Thutmose_II">Thutmose II</a></li>
+        <li><a href="pharaohs/Hatshepsut">Hatshepsut</a></li>
+        <li><a href="pharaohs/Thutmose_III">Thutmose III</a></li>
+        <li><a href="pharaohs/Amenhotep_II">Amenhotep II</a></li>
+        <li><a href="pharaohs/Thutmose_IV">Thutmose IV</a></li>
+        <li><a href="pharaohs/Amenhotep_III">Amenhotep III</a></li>
+        <li><a href="pharaohs/Amenhotep_IV">Amenhotep IV</a></li>
+        <li><a href="pharaohs/Neferneferuaten">Neferneferuaten</a></li>
+        <li><a href="pharaohs/Smenkhkara">Smenkhkara</a></li>
+        <li><a href="pharaohs/Tutankhamun">Tutankhamun</a></li>
+        <li><a href="pharaohs/Ay">Ay</a></li>
+        <li><a href="pharaohs/Horemheb">Horemheb</a></li>
 
-- [1: Ahmose I](https://bartekrozenberg.github.io/BartekRozenberg.io/www/zadanie1/pharaohs/Ahmose_I)
-- [2: Amenhotep I](https://bartekrozenberg.github.io/BartekRozenberg.io/www/zadanie1/pharaohs/Amenhotep_I)
-- [3: Thutmose I](https://bartekrozenberg.github.io/BartekRozenberg.io/www/zadanie1/pharaohs/Thutmose_I)
-- [4: Thutmose II](https://bartekrozenberg.github.io/BartekRozenberg.io/www/zadanie1/pharaohs/Thutmose_II)
-- [5: Hatshepsut](https://bartekrozenberg.github.io/BartekRozenberg.io/www/zadanie1/pharaohs/Hatshepsut)
-- [6: Thutmose III](https://bartekrozenberg.github.io/BartekRozenberg.io/www/zadanie1/pharaohs/Thutmose_III)
-- [7: Amenhotep II](https://bartekrozenberg.github.io/BartekRozenberg.io/www/zadanie1/pharaohs/Amenhotep_II)
-- [8: Thutmose IV](https://bartekrozenberg.github.io/BartekRozenberg.io/www/zadanie1/pharaohs/Thutmose_IV)
-- [9: Amenhotep III](https://bartekrozenberg.github.io/BartekRozenberg.io/www/zadanie1/pharaohs/Amenhotep_III)
-- [10: Amenhotep IV](https://bartekrozenberg.github.io/BartekRozenberg.io/www/zadanie1/pharaohs/Amenhotep_IV)
-- [11: Neferneferuaten](https://bartekrozenberg.github.io/BartekRozenberg.io/www/zadanie1/pharaohs/Neferneferuaten)
-- [12: Smenkhkara](https://bartekrozenberg.github.io/BartekRozenberg.io/www/zadanie1/pharaohs/Smenkhkara)
-- [13: Tutankhamun](https://bartekrozenberg.github.io/BartekRozenberg.io/www/zadanie1/pharaohs/Tutankhamun)
-- [14: Ay](https://bartekrozenberg.github.io/BartekRozenberg.io/www/zadanie1/pharaohs/Ay)
-- [15: Horemheb](https://bartekrozenberg.github.io/BartekRozenberg.io/www/zadanie1/pharaohs/Horemheb)
-
-### Source: [The Eighteenth Dynasty](https://pharaoh.se/ancient-egypt/dynasty/18/)
+        </u1>
+      <p><em>Source: <a href="https://pharaoh.se/ancient-egypt/dynasty/18/" target="_blank">https://pharaoh.se/ancient-egypt/dynasty/18/</a></em></p>
+      <p><em>Background Image Source:
+         <a href="https://www.eyeofhorustours.com/wp-content/uploads/luxor-1.jpg" target="_blank">https://www.eyeofhorustours.com/wp-content/uploads/luxor-1.jpg</a>
+      </em></p>
+    </div>
+  </body>
+</html>

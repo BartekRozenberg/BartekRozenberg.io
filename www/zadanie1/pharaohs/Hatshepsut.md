@@ -4,8 +4,8 @@ Hatshepsut ( haht-SHEPP-sut; c. 1507–1458 BC) was the Great Royal Wife of Ph
 Hatshepsut was the daughter of Thutmose I and Great Royal Wife, Ahmose. Upon the death of her husband and half-brother Thutmose II, she had initially ruled as regent to her stepson, Thutmose III, who inherited the throne at the age of two. Several years into her regency, Hatshepsut assumed the position of pharaoh and adopted the full royal titulary, making her a co-ruler alongside Thutmose III. In order to establish herself in the Egyptian patriarchy, she took on traditionally male roles and was depicted as a male pharaoh, with physically masculine traits and traditionally male garb. She emphasized both the qualities of men and women to convey the idea that she was both a mother and father to the realm. Hatshepsut's reign was a period of great prosperity and general peace. One of the most prolific builders in Ancient Egypt, she oversaw large-scale construction projects such as the Karnak Temple Complex, the Red Chapel, the Speos Artemidos and most famously, the Mortuary Temple of Hatshepsut at Deir el-Bahari. 
 Hatshepsut probably died in Year 22 of the reign of Thutmose III. Towards the end of the reign of Thutmose III and into the reign of his son Amenhotep II, an attempt was made to remove her from official accounts of Egyptian historiography: her statues were destroyed, her monuments were defaced, and many of her achievements were ascribed to other pharaohs.
 
-![Hatshepsut](https://img.wondercostumes.com/images/blog/16/Hatshepsut-Head-Sculpture-Pic1.jpg)
+![Hatshepsut](https://mymodernmet.com/wp/wp-content/uploads/2022/06/hatshepsut-statue-1.jpg)
 
 ### Source: [https://en.wikipedia.org/wiki/Hatshepsut](https://en.wikipedia.org/wiki/Hatshepsut)
 
-### Image: [source](https://img.wondercostumes.com/images/blog/16/Hatshepsut-Head-Sculpture-Pic1.jpg)
+### Image: [source](https://mymodernmet.com/wp/wp-content/uploads/2022/06/hatshepsut-statue-1.jpg)

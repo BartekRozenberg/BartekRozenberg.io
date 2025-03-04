@@ -8,9 +8,26 @@ import wikipediaapi
 mysite = "https://bartekrozenberg.github.io/BartekRozenberg.io/www/zadanie1"
 pharaohs_page = "www/zadanie1/index.md"
 
-url = "https://pharaoh.se/ancient-egypt/dynasty/18/"
-page = requests.get(url, verify=False)
-soup = BeautifulSoup(page.content, "html.parser")
+responsive_css = """
+html, body {{ height: 100%; margin: 0; }}
+body {{ background: url({bg}) no-repeat center center fixed; background-size: cover; font-family: Arial, sans-serif; color: #FFFFFF; }}
+.content {{ padding: 20px; min-height: 100vh; background-color: rgba(0, 0, 0, 0.5); }}
+h1 {{ font-size: 2.5rem; }}
+p {{ font-size: 1.125rem; }}
+a {{ color:rgb(230, 223, 173); }}
+/* Tablet devices */
+@media (max-width: 768px) {{
+  .content {{ padding: 15px; }}
+  h1 {{ font-size: 2rem; }}
+  p {{ font-size: 1rem; }}
+}}
+/* Mobile devices */
+@media (max-width: 480px) {{
+  .content {{ padding: 10px; }}
+  h1 {{ font-size: 1.5rem; }}
+  p {{ font-size: 0.9rem; }}
+}}
+""".strip()
 
 # Data for scraping from wikipedia:
 user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3"
@@ -51,38 +68,75 @@ def create_king_page(king_name):
 
 ### Creating the main page with the list of pharaohs: ###
 
+# Getting the image for the background:
+with DDGS() as ddgs:
+    image_results = ddgs.images("ancient egypt luxor karnak", max_results=1)
+
+background_url = image_results[0].get("image", "")
+background_source = image_results[0].get("image") if image_results and len(image_results) > 0 else ""
+
+
+url = "https://pharaoh.se/ancient-egypt/dynasty/18/"
+page = requests.get(url, verify=False)
+soup = BeautifulSoup(page.content, "html.parser")
 # There is general information about the 18th dynasty:
 paragraphs = soup.find_all("p", limit=4)
 
+
+page_beginning = f"""
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>The Eighteenth Dynasty of Ancient Egypt</title>
+    <style>
+      {responsive_css.format(bg=background_url)}
+    </style>
+  </head>
+  <body>
+    <div class="content">
+      <h1>The Eighteenth Dynasty of Ancient Egypt</h1>
+      <h2>The New Kingdom</h2>
+      <p>{paragraphs[0].text}</p>
+      <h2>Time of prosperity</h2>
+      <p>{paragraphs[1].text}</p>
+      <h2>Achievements</h2>
+      <p>{paragraphs[2].text}</p>
+"""
+
+king_list_to_file = f"""
+      <h2>The list of Pharaohs</h2>
+      <p>{paragraphs[3].text}</p>
+        <u1>
+"""
+
+# There is a list of pharaohs of the 18th dynasty:
+table = soup.find("table")
+rows = table.find_all("tr")
+kings_list = []
+for row in rows:
+    cols = row.find_all("td")
+    cols = [ele.text.strip() for ele in cols]
+    kings_list.append([ele for ele in cols if ele])
+
+for king in kings_list:
+    if len(king) == 0:
+        continue
+    page_name = king[1].replace(" ", "_")
+    king_list_to_file += f'        <li><a href="pharaohs/{page_name}">{king[1]}</a></li>\n'
+    create_king_page(king[1])
+
+page_end = f"""
+        </u1>
+      <p><em>Source: <a href="{url}" target="_blank">{url}</a></em></p>
+      <p><em>Background Image Source:
+         <a href="{background_source}" target="_blank">{background_source}</a>
+      </em></p>
+    </div>
+  </body>
+</html>
+"""
+
+complete_page = (page_beginning + king_list_to_file + page_end).strip()
+
 with(open(pharaohs_page, "w")) as file:
-    file.write("# The Eighteenth Dynasty of Ancient Egypt\n\n")
-    
-    file.write("## The New Kingdom\n")
-    file.write(paragraphs[0].text + "\n")
-    
-    file.write("## Time of prosperity\n")
-    file.write(paragraphs[1].text + "\n")
-    
-    file.write("## Achievements\n")
-    file.write(paragraphs[2].text + "\n")
-    
-    file.write("## The list of Pharaohs\n")
-    file.write(paragraphs[3].text + "\n")
-
-    # There is a list of pharaohs of the 18th dynasty:
-    table = soup.find("table")
-    rows = table.find_all("tr")
-    kings_list = []
-    for row in rows:
-        cols = row.find_all("td")
-        cols = [ele.text.strip() for ele in cols]
-        kings_list.append([ele for ele in cols if ele])
-
-    for king in kings_list:
-        if len(king) == 0:
-            continue
-        page_name = king[1].replace(" ", "_")
-        file.write(f"- [{king[0]}: {king[1]}]({mysite}/pharaohs/{page_name})\n")
-        create_king_page(king[1])
-
-    file.write(f"\n### Source: [The Eighteenth Dynasty]({url})\n")
+    file.write(complete_page)
