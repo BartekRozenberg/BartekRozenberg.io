@@ -4,8 +4,8 @@
     <title>The Eighteenth Dynasty of Ancient Egypt</title>
     <style>
       html, body { height: 100%; margin: 0; }
-body { background: url(https://egyptpyramidstours.com/wp-content/uploads/2020/05/Queen-Hatshepsut-Egypt.jpg) no-repeat center center fixed; background-size: cover; font-family: Arial, sans-serif; color: #FFFFFF; }
-.content { padding: 20px; min-height: 100vh; background-color: rgba(0, 0, 0, 0.25); }
+body { background: url(https://wallpaperaccess.com/full/677122.jpg) no-repeat center center fixed; background-size: cover; font-family: Arial, sans-serif; color: #FFFFFF; }
+.content { padding: 20px; min-height: 100vh; background-color: rgba(0, 0, 0, 0.55); }
 h1 { font-size: 2.5rem; }
 p { font-size: 1.13rem; }
 a { color:rgb(230, 223, 173); }
@@ -64,7 +64,7 @@ It is important to note that the chronological order of the pharaohs is an evolv
       <br>
       <p><em>Source of information: <a href="https://pharaoh.se/ancient-egypt/dynasty/18/" target="_blank">https://pharaoh.se/ancient-egypt/dynasty/18/</a></em></p>
       <p><em>Background image source:
-         <a href="https://egyptpyramidstours.com/wp-content/uploads/2020/05/Queen-Hatshepsut-Egypt.jpg" target="_blank">https://egyptpyramidstours.com/wp-content/uploads/2020/05/Queen-Hatshepsut-Egypt.jpg</a>
+         <a href="https://wallpaperaccess.com/full/677122.jpg" target="_blank">https://wallpaperaccess.com/full/677122.jpg</a>
       </em></p>
     </div>
   </body>
