@@ -5,9 +5,9 @@
       <style>
         html, body { height: 100%; margin: 0; }
 body { background: url(https://www.egyptkeytours.com/wp-content/uploads/2017/10/valley-of-kings-min.jpg) no-repeat center center fixed; background-size: cover; font-family: Arial, sans-serif; color: #FFFFFF; }
-.content { padding: 20px; min-height: 100vh; background-color: rgba(0, 0, 0, 0.5); }
+.content { padding: 20px; min-height: 100vh; background-color: rgba(0, 0, 0, 0.25); }
 h1 { font-size: 2.5rem; }
-p { font-size: 1.125rem; }
+p { font-size: 1.13rem; }
 a { color:rgb(230, 223, 173); }
 /* Tablet devices */
 @media (max-width: 768px) {

@@ -4,10 +4,10 @@
     <title>The Eighteenth Dynasty of Ancient Egypt</title>
     <style>
       html, body { height: 100%; margin: 0; }
-body { background: url(http://www.ancientpages.com/wp-content/uploads/2017/11/karnak114.jpg) no-repeat center center fixed; background-size: cover; font-family: Arial, sans-serif; color: #FFFFFF; }
-.content { padding: 20px; min-height: 100vh; background-color: rgba(0, 0, 0, 0.5); }
+body { background: url(https://egyptpyramidstours.com/wp-content/uploads/2020/05/Queen-Hatshepsut-Egypt.jpg) no-repeat center center fixed; background-size: cover; font-family: Arial, sans-serif; color: #FFFFFF; }
+.content { padding: 20px; min-height: 100vh; background-color: rgba(0, 0, 0, 0.25); }
 h1 { font-size: 2.5rem; }
-p { font-size: 1.125rem; }
+p { font-size: 1.13rem; }
 a { color:rgb(230, 223, 173); }
 /* Tablet devices */
 @media (max-width: 768px) {
@@ -64,7 +64,7 @@ It is important to note that the chronological order of the pharaohs is an evolv
       <br>
       <p><em>Source of information: <a href="https://pharaoh.se/ancient-egypt/dynasty/18/" target="_blank">https://pharaoh.se/ancient-egypt/dynasty/18/</a></em></p>
       <p><em>Background image source:
-         <a href="http://www.ancientpages.com/wp-content/uploads/2017/11/karnak114.jpg" target="_blank">http://www.ancientpages.com/wp-content/uploads/2017/11/karnak114.jpg</a>
+         <a href="https://egyptpyramidstours.com/wp-content/uploads/2020/05/Queen-Hatshepsut-Egypt.jpg" target="_blank">https://egyptpyramidstours.com/wp-content/uploads/2020/05/Queen-Hatshepsut-Egypt.jpg</a>
       </em></p>
     </div>
   </body>

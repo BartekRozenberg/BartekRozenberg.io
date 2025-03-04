@@ -13,9 +13,9 @@ pharaohs_page = "www/zadanie1/index.md"
 responsive_css = """
 html, body {{ height: 100%; margin: 0; }}
 body {{ background: url({bg}) no-repeat center center fixed; background-size: cover; font-family: Arial, sans-serif; color: #FFFFFF; }}
-.content {{ padding: 20px; min-height: 100vh; background-color: rgba(0, 0, 0, 0.5); }}
+.content {{ padding: 20px; min-height: 100vh; background-color: rgba(0, 0, 0, 0.25); }}
 h1 {{ font-size: 2.5rem; }}
-p {{ font-size: 1.125rem; }}
+p {{ font-size: 1.13rem; }}
 a {{ color:rgb(230, 223, 173); }}
 /* Tablet devices */
 @media (max-width: 768px) {{
@@ -103,11 +103,13 @@ def create_king_page(king_name):
 # Getting the image for the background:
 time.sleep(10)
 with DDGS() as ddgs:
-    image_results = ddgs.images("ancient egypt karnak", max_results=1)
+    image_results = ddgs.images("hatshepsut temple", max_results=1)
 
 background_url = image_results[0].get("image", "")
 background_source = image_results[0].get("image") if image_results and len(image_results) > 0 else ""
 
+print("Background url: ", background_url)
+print("Background source: ", background_source)
 
 url = "https://pharaoh.se/ancient-egypt/dynasty/18/"
 page = requests.get(url, verify=False)
