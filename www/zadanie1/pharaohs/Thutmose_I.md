@@ -2,3 +2,9 @@
 
 Thutmose I (sometimes read as Thutmosis or Tuthmosis I, Thothmes in older history works in Latinized Greek; meaning "Thoth is born") was the third pharaoh of the 18th Dynasty of Egypt. He received the throne after the death of the previous king, Amenhotep I. During his reign, he campaigned deep into the Levant and Nubia, pushing the borders of Egypt farther than ever before in each region. He also built many temples in Egypt, and a tomb for himself in the Valley of the Kings; he is the first king confirmed to have done this (though Amenhotep I may have preceded him).
 Thutmose I's reign is generally dated to 1506–1493 BC, but a minority of scholars—who think that astrological observations used to calculate the timeline of ancient Egyptian records, and thus the reign of Thutmose I, were taken from the city of Memphis rather than from Thebes—would date his reign to 1526–1513 BC. He was succeeded by his son Thutmose II, who in turn was succeeded by Thutmose II's sister, Hatshepsut.
+
+![Thutmose I](https://tuntimo.com/wp-content/uploads/2020/10/Pharaoh-Thutmose-copy-768x1024.png)
+
+### Source: [https://en.wikipedia.org/wiki/Thutmose_I](https://en.wikipedia.org/wiki/Thutmose_I)
+
+### Image: [source](https://tuntimo.com/wp-content/uploads/2020/10/Pharaoh-Thutmose-copy-768x1024.png)
