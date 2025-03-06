@@ -3,3 +3,6 @@
 Strona przedstawiająca mój conlang - język gygy.
 
 Strona w produkcji.
+
+[Podręcznik](/gygy.pdf)
+[Słownik](/slownik)
