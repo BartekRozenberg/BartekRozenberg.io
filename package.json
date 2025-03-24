@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/BartekRozenberg/BartekRozenberg.io#readme",
   "dependencies": {
-    "html-validate": "^9.5.1"
+    "@tailwindcss/vite": "^4.0.15",
+    "html-validate": "^9.5.1",
+    "tailwindcss": "^4.0.15"
   }
 }
